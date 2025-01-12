@@ -74,5 +74,17 @@ namespace SiliconSpace.API.Controllers
             };
             return Ok(response);
         }
+
+        [HttpGet("test")]
+        public async Task<IActionResult> GetTestResultAsync()
+        {
+            var response = new Response
+            {
+                StatusCode = 200,
+                Message = "Success",
+                Data = "Test data"
+            };
+            return Ok(response);
+        }
     }
 }
