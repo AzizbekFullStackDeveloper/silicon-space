@@ -1,0 +1,6 @@
+@SiliconSpace.API_HostAddress = http://localhost:5218
+
+GET {{SiliconSpace.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
